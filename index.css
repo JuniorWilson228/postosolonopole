@@ -1,0 +1,1541 @@
+body{
+    background-color: #ffff00;
+    margin: 0;
+}
+header{
+    background-color: #ff0000;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    display: flex;
+    flex-wrap:wrap;
+    text-align: center;
+    box-shadow: 2px 2px 4px #000000a7;
+}
+header .logoPs img{
+    width: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin-left: 15px;
+    flex: auto;
+}
+header h1{
+    color: #ffffff;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    flex: auto;
+    align-items: center;
+    margin-right: 100px;
+}
+.menu{
+    background-color: #650000;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+.menu nav a{
+    margin: 0;
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50px;
+    box-shadow: 2px 2px 4px #000000a7;
+}
+.menu nav a:hover{
+    margin: 0;
+    text-decoration: none;
+    background-color: #ff0000;
+    color: #ffff00;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px #000000a7;
+    transition-duration: 0.8s;
+}
+.produto{
+    padding-top: 20px;
+    margin: 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 5px;
+}
+.produto .cafe{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .cafe img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .cafe img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .bebidas{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .bebidas img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .bebidas img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .doces{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .doces img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .doces img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .sorvetes{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .sorvetes img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .sorvetes img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .acai{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .acai img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .acai img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .salgados{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .salgados img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}.produto .salgados img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .salgadinhos{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .salgadinhos img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .salgadinhos img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .castanhaDerivados{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .castanhaDerivados img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .castanhaDerivados img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .laticinios{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .laticinios img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .laticinios img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .cigarros{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .cigarros img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .cigarros img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .chinelas{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .chinelas img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .chinelas img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .prodUsoPessoal{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.produto .prodUsoPessoal img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .prodUsoPessoal img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+
+footer{
+    background-color: #ff0000;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+footer .rodape{
+    background-color: #650000;
+    width: 100%;
+    height: 10px;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: #ffff00;
+    }
+    header h1{
+        margin-right: 80px;
+    }
+    .produto{
+        display: grid;
+        grid-template-columns: repeat(1, auto); 
+    }
+    .produto .cafe{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cafe img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cafe img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .bebidas{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .bebidas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .bebidas img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .doces{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .doces img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .doces img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .sorvetes{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .sorvetes img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .sorvetes img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .acai{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .acai img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .acai img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgados{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgados img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgadinhos{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgadinhos img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgadinhos img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .castanhaDerivados{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .castanhaDerivados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .castanhaDerivados img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .laticinios{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .laticinios img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .laticinios img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .cigarros{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cigarros img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cigarros img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .chinelas{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .chinelas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .chinelas img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .prodUsoPessoal{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    
+    }
+    .produto .prodUsoPessoal img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .prodUsoPessoal img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+   }
+
+/* Dispositivos um pouco maiores, mas ainda
+pequenos (Pequenos Tablets e Smartphones + largos,
+600px para cima)*/
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: #ffff00;
+    }
+    .produto{
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+    }
+    .produto .cafe{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cafe img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cafe img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .bebidas{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .bebidas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .bebidas img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .doces{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .doces img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .doces img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .sorvetes{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .sorvetes img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .sorvetes img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .acai{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .acai img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .acai img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgados{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }.produto .salgados img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgadinhos{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgadinhos img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgadinhos img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .castanhaDerivados{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .castanhaDerivados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .castanhaDerivados img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .laticinios{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .laticinios img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .laticinios img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .cigarros{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cigarros img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cigarros img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .chinelas{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .chinelas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .chinelas img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .prodUsoPessoal{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    
+    }
+    .produto .prodUsoPessoal img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .prodUsoPessoal img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    
+    
+}
+
+
+/*Dispostivos Médios (Tablets deitados, 768px para
+cima) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: #ffff00;
+    }
+    .produto{
+        display: grid;
+        grid-template-columns: repeat(2, auto); 
+    }
+    .produto .cafe{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cafe img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cafe img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .bebidas{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .bebidas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .bebidas img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .doces{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .doces img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .doces img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .sorvetes{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .sorvetes img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .sorvetes img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .acai{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .acai img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .acai img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgados{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgados img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgadinhos{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgadinhos img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgadinhos img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .castanhaDerivados{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .castanhaDerivados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .castanhaDerivados img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .laticinios{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .laticinios img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .laticinios img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .cigarros{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cigarros img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cigarros img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .chinelas{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .chinelas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .chinelas img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+    .produto .prodUsoPessoal{
+        background-color: #ff0000;
+        width: 360px;
+        height: 360px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    
+    }
+    .produto .prodUsoPessoal img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .prodUsoPessoal img:hover{
+        position: relative;
+        width: 370px;
+        transition-duration: 0.8s;
+    }
+}
+
+
+/* Dispostivos Largos (laptops/desktops, 992px
+para cima) */
+@media only screen and (min-width: 992px) {
+     body{
+    background-color: #ffff00;
+}
+.produto{
+    display: grid;
+    grid-template-columns: repeat(3, auto); 
+}
+.produto .cafe{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .cafe img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .cafe img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .bebidas{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .bebidas img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .bebidas img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .doces{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .doces img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .doces img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .sorvetes{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .sorvetes img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .sorvetes img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .acai{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .acai img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .acai img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .salgados{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .salgados img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}.produto .salgados img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .salgadinhos{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .salgadinhos img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .salgadinhos img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .castanhaDerivados{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .castanhaDerivados img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .castanhaDerivados img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .laticinios{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .laticinios img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .laticinios img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .cigarros{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .cigarros img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .cigarros img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .chinelas{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+}
+.produto .chinelas img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .chinelas img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+.produto .prodUsoPessoal{
+    background-color: #ff0000;
+    width: 280px;
+    height: 280px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.produto .prodUsoPessoal img{
+    flex-wrap:wrap;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px #00000080;
+}
+.produto .prodUsoPessoal img:hover{
+    position: relative;
+    width: 290px;
+    transition-duration: 0.8s;
+}
+
+}
+
+
+/* Super Largos (Telas maiores laptops, desktops e
+até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: #ffff00;
+    }
+    .produto{
+        display: grid;
+        grid-template-columns: repeat(4, auto); 
+    }
+    .produto .cafe{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cafe img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cafe img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .bebidas{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .bebidas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .bebidas img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .doces{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .doces img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .doces img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .sorvetes{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .sorvetes img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .sorvetes img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .acai{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .acai img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .acai img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgados{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }.produto .salgados img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .salgadinhos{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .salgadinhos img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .salgadinhos img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .castanhaDerivados{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .castanhaDerivados img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .castanhaDerivados img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .laticinios{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .laticinios img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .laticinios img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .cigarros{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .cigarros img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .cigarros img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .chinelas{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .produto .chinelas img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .chinelas img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+    .produto .prodUsoPessoal{
+        background-color: #ff0000;
+        width: 280px;
+        height: 280px;
+        display: inline-block;
+        border-radius: 10px;
+        margin: 20px;
+    
+    }
+    .produto .prodUsoPessoal img{
+        flex-wrap:wrap;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 4px 4px 8px #00000080;
+    }
+    .produto .prodUsoPessoal img:hover{
+        position: relative;
+        width: 290px;
+        transition-duration: 0.8s;
+    }
+       
+}
